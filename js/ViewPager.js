@@ -155,7 +155,7 @@ class ViewPager extends React.Component<ViewPagerProps> {
         onPageScroll={this._onPageScroll}
         onPageScrollStateChanged={this._onPageScrollStateChanged}
         onPageSelected={this._onPageSelected}
-        children={childrenWithOverriddenStyle(this.props.children)}
+        children={this.props.children}
       />
     );
   }
